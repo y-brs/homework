@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Spoiler & Accordion JS</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Spoiler and accordion on vanilla js</h1>
+
+    <div data-spoilers data-one-spoiler class="block block_1">
+      <div class="block__item">
+        <button tabindex="-1" type="button" data-spoiler class="block__title _active">Typical Spoiler #1</button>
+        <div class="block__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio fuga quod eligendi inventore praesentium voluptatem voluptatibus facere tempora laudantium. Error perspiciatis velit, dolorum doloremque neque praesentium tempora minus tempore?
+        </div>
+      </div>
+      <div class="block__item">
+        <button tabindex="-1" type="button" data-spoiler class="block__title">Typical Spoiler #2</button>
+        <div class="block__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio fuga quod eligendi inventore praesentium voluptatem voluptatibus facere tempora laudantium. Error perspiciatis velit, dolorum doloremque neque praesentium tempora minus tempore?
+        </div>
+      </div>
+      <div class="block__item">
+        <button tabindex="-1" type="button" data-spoiler class="block__title">Typical Spoiler #3</button>
+        <div class="block__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio fuga quod eligendi inventore praesentium voluptatem voluptatibus facere tempora laudantium. Error perspiciatis velit, dolorum doloremque neque praesentium tempora minus tempore?
+        </div>
+      </div>
+    </div>
+
+    <div data-spoilers="650,min" class="block block_2">
+      <div class="block__item">
+        <button tabindex="-1" type="button" data-spoiler class="block__title">Spoiler work on >= 650px</button>
+        <div class="block__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio fuga quod eligendi inventore praesentium voluptatem voluptatibus facere tempora laudantium. Error perspiciatis velit, dolorum doloremque neque praesentium tempora minus tempore?
+        </div>
+      </div>
+    </div>
+
+    <div data-spoilers="800,max" class="block block_3">
+      <div class="block__item">
+        <button tabindex="-1" type="button" data-spoiler class="block__title">Spoiler work on <= 800px</button>
+        <div class="block__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio fuga quod eligendi inventore praesentium voluptatem voluptatibus facere tempora laudantium. Error perspiciatis velit, dolorum doloremque neque praesentium tempora minus tempore?
+        </div>
+      </div>
+      <div class="block__item">
+        <button tabindex="-1" type="button" data-spoiler class="block__title">Spoiler work on <= 800px</button>
+        <div class="block__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio fuga quod eligendi inventore praesentium voluptatem voluptatibus facere tempora laudantium. Error perspiciatis velit, dolorum doloremque neque praesentium tempora minus tempore?
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
