@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,800,900');
+
 html {
 	scroll-behavior: smooth;
 }
 
 body {
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -53,6 +55,7 @@ h3 {
 .top {
 	background: #E0E1E2;
 	padding: 25px 0 48px;
+	overflow: hidden;
 }
 
 .center-content {
@@ -76,7 +79,7 @@ h3 {
 .top__img {
 	margin: 94px 0 41px;
 	height: 256px;
-	background: url(images/mob_mxmaster.png) center no-repeat;
+	background: url(./images/mob_mxmaster.png) center no-repeat;
 	background-size: contain;
 }
 
@@ -108,7 +111,7 @@ h3 {
 
 .bluetooth__img {
 	height: 288px;
-	background: url(images/mob_bluetooth_mouse.png) center bottom no-repeat;
+	background: url(./images/mob_bluetooth_mouse.png) center bottom no-repeat;
 	background-size: contain;
 }
 
@@ -165,7 +168,7 @@ h3 {
 
 .flow {
 	padding: 70px 0 218px;
-	background: #EDEDED url(images/mob_lifestyle.png) center bottom no-repeat;
+	background: #EDEDED url(./images/mob_lifestyle.png) center bottom no-repeat;
 	background-size: contain;
 }
 
@@ -232,7 +235,7 @@ h3 {
 
 /* ### footer */
 
-footer {
+.footer {
 	background: #2F3132;
 	padding: 22px 0 37px;
 	color: #C7C8C8;
@@ -286,9 +289,9 @@ footer {
 	}
 
 	.top__img {
-		margin-top: 160px;
+		margin-top: 50px;
 		height: 514px;
-		background-image: url(images/tablet_mxmaster.png);
+		background-image: url(./images/tablet_mxmaster.png);
 	}
 
 	.top__arrow {
@@ -305,7 +308,7 @@ footer {
 
 	.bluetooth__img {
 		height: 570px;
-		background-image: url(images/tablet_bluetooth_mouse.png);
+		background-image: url(./images/tablet_bluetooth_mouse.png);
 	}
 
 	.bluetooth__heading {
@@ -359,7 +362,7 @@ footer {
 	}
 
 	.flow {
-		background-image: url(images/tablet_lifestyle.png);
+		background-image: url(./images/tablet_lifestyle.png);
 	}
 
 	.flow__ol {
@@ -435,7 +438,7 @@ footer {
 		margin-top: 20px;
 	}
 
-	footer {
+	.footer {
 		font-size: 14px;
 		line-height: 16px;
 	}
@@ -468,6 +471,10 @@ footer {
 
 	.top {
 		padding: 0 0 56px;
+	}
+
+	.top__img {
+		margin-top: 0;
 	}
 
 	.header {
@@ -533,8 +540,7 @@ footer {
 		margin-top: 80px;
 		margin-bottom: 8px;
 		height: 671px;
-		background-image: url(images/thor_mxmaster.png);
-		background-color: #ccc;
+		background-image: url(./images/thor_mxmaster.png);
 	}
 	.top__arrow {
 		margin-top: 49px;
@@ -555,7 +561,7 @@ footer {
 
 	.bluetooth__img {
 		height: 421px;
-		background: url(images/thor_bluetooth_mouse.png) right 119px no-repeat, url(images/thor_bluetooth_mouse_1.png) 0 119px no-repeat;
+		background: url(./images/thor_bluetooth_mouse.png) right 119px no-repeat, url(./images/thor_bluetooth_mouse_1.png) 0 119px no-repeat;
 	}
 
 	.bluetooth__heading {
@@ -594,7 +600,7 @@ footer {
 	}
 
 	.flow {
-		background-image: url(images/thor_lifestyle.png);
+		background-image: url(./images/thor_lifestyle.png);
 	}
 
 	.flow__ol {
@@ -641,7 +647,7 @@ footer {
 		height: 36px;
 	}
 
-	footer {
+	.footer {
 		font-size: 14px;
 		line-height: 16px;
 	}
