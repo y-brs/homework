@@ -280,8 +280,13 @@
       <div class="footer__top">
         <form class="footer__form" action="">
           <h2 class="title">ОСТАВИТЬ ЗАЯВКУ</h2>
-          <input class="footer__input" type="text" placeholder="Имя">
-          <input class="footer__input" type="text" placeholder="Телефон">
+
+          <input type="hidden" name="project_name" value="Solar">
+          <input type="hidden" name="admin_email" value="boris.yarmoulnik@gmail.com">
+          <input type="hidden" name="form_subject" value="Form">
+
+          <input class="footer__input" type="text" name="Имя" placeholder="Имя">
+          <input class="footer__input" type="text" name="Телефон" placeholder="Телефон">
           <button class="footer__form-btn button" href="./">
             <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path class="button__path" d="M99.0521 50C99.0521 77.0615 77.1029 99 50.026 99C22.9492 99 1 77.0615 1 50C1 22.9385 22.9492 1 50.026 1C77.1029 1 99.0521 22.9385 99.0521 50Z" stroke="white" stroke-width="2" fill="transparent" />
