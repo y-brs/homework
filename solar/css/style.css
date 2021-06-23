@@ -131,6 +131,8 @@ ul {
   object-fit: cover;
 }
 
+/* ############## SECTION INFO */
+
 .info {
   margin-bottom: 150px;
 }
@@ -233,6 +235,8 @@ ul {
   fill: #a9a32a;
 }
 
+/* ############## SECTION BLOCKQUOTE */
+
 .blockquote {
   padding: 128px 10px 144px;
   text-align: center;
@@ -247,6 +251,8 @@ ul {
   line-height: 57px;
   color: #fff;
 }
+
+/* ############## SECTION CLIENTS */
 
 .clients {
   margin-bottom: 150px;
@@ -276,6 +282,8 @@ ul {
 .clients-slider__box-item {
   margin-bottom: 15px;
 }
+
+/* ############## SECTION STEP */
 
 .step {
   margin-bottom: 150px;
@@ -322,4 +330,73 @@ ul {
   font-size: 18px;
   line-height: 25px;
   margin: 11px 0 2px;
+}
+
+/* ############## FOOTER */
+
+.footer {
+  width: 100%;
+  height: 730px;
+  background: url('../images/bg-footer.jpg') center / cover no-repeat;
+  color: #fff;
+  padding: 70px 10px 50px;
+}
+
+.footer__top {
+  margin-bottom: 150px;
+  display: flex;
+}
+
+.footer__form {
+  flex-basis: 510px;
+  margin-right: 90px;
+}
+
+.footer__input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  display: block;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  font: normal 14px/19px 'Noto Sans', sans-serif;
+  padding-bottom: 11px;
+  margin-bottom: 60px;
+  outline: none;
+}
+
+.footer__input::placeholder {
+  color: #fff;
+  font: normal 14px/19px 'Noto Sans', sans-serif;
+}
+
+.footer__form-btn {
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.footer__contacts-item {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .title {
+  font-size: 24px;
+  line-height: 33px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.footer .social {
+  margin-right: -10px;
 }
