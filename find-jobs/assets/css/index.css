@@ -89,7 +89,7 @@ header {
 }
 
 .button-container {
-  background: #3060FF;
+  background-color: #FF6D1A;
   width: 100px;
   display: flex;
   justify-content: center;
@@ -99,8 +99,9 @@ header {
   color: #fff;
 }
 
-.button-container:hover {
-  background: #5a81ff;
+.button-container:hover,
+.day-mode .button-container:hover {
+  background-color: rgb(255,255,255,0.5);
 }
 
 .jobs-list {
@@ -182,7 +183,7 @@ header {
   opacity: 1;
 }
 
-.job-tile:hover{
+.job-tile:hover {
   transform: scale(1.05);
   background-color: #FE8719;
 }
@@ -233,22 +234,29 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  color: #96939B;
-  background-color: #2E2E39;
+  color: #96939b;
+  background-color: rgb(46, 46, 57);
   font-size: 14px;
 }
 
-.button.apply-now:hover {
-  background-color: #5a81ff;
+.button:hover{
+  background-color: #824C2C;
+  color: #fff;
 }
 
-.button:hover {
-  background-color: #6b6b85;
+.job-tile:hover .apply-now{
+  background-color: #fff;
+  color: #FF6D1A;
+}
+
+.job-tile:hover .apply-now:hover{
+  background-color: rgb(255,255,255,0.5);
+  color: #fff;
 }
 
 .apply-now {
   color: white;
-  background: #3060FF;
+  background-color: #FF6D1A;
   margin-right: 15px;
 }
 
@@ -340,6 +348,10 @@ body.day-mode {
   box-shadow: inset 2px 2px 4px 1px rgb(0, 0, 0, 0.2);
   background-color: #FF6D1A;
   border: 2px solid #ddd;
+}
+
+.day-mode .button-container {
+  background: #5a81ff;
 }
 
 .day-mode .input-container i {
