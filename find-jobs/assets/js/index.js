@@ -1,5 +1,13 @@
-const showCount = document.querySelector(".showCount");
+const showCount = document.querySelector(".showCount"),
+      dayNightMode = document.querySelector(".switch"),
+      body = document.querySelector("body");
+
 let count = 0;
+
+dayNightMode.addEventListener("click", () => {
+  dayNightMode.classList.toggle("day-switch")
+  body.classList.toggle("day-mode")
+});
 
 document.querySelector(".button-container").addEventListener("click", () => {
   let text = document.getElementById("filter-jobs").value;

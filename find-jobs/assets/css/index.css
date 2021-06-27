@@ -5,6 +5,16 @@ body {
   background: #11121A;
 }
 
+body::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+  position: absolute;
+  z-index: -1;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -24,16 +34,20 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 25px;
 }
 
 .header-container .logo {
   height: 30px;
   margin-right: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .header-container .logo img {
   height: 100%;
+  margin-right: 10px;
 }
 
 .search {
@@ -50,6 +64,7 @@ header {
   border: 2px solid #222328;
   display: flex;
   overflow: hidden;
+  box-shadow: inset 1px 0px 3px 2px rgb(0,0,0,0.4);
 }
 
 .input-container {
@@ -81,6 +96,7 @@ header {
   align-items: center;
   cursor: pointer;
   transition: all 0.2s ease;
+  color: #fff;
 }
 
 .button-container:hover {
@@ -88,7 +104,6 @@ header {
 }
 
 .jobs-list {
-  background-color: #11121A;
   max-width: 1250px;
   width: 100%;
   height: 100vh;
@@ -99,7 +114,7 @@ header {
 }
 
 .jobs-list h1 {
-  margin-left: 25px;
+  margin: 30px 25px;
   font-size: 20px;
 }
 
@@ -107,7 +122,6 @@ header {
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(3, 1fr);
-  background: #11121A;
 }
 
 .job-tile {
@@ -236,6 +250,104 @@ header {
   color: white;
   background: #3060FF;
   margin-right: 15px;
+}
+
+.switch {
+  display: inline-block;
+  width: 54px;
+  height: 29px;
+  position: relative;
+  align-items: center;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F3F5F7;
+  background-repeat: no-repeat;
+  transition: .4s;
+  box-shadow: inset 2px 2px 4px 1px rgb(0, 0, 0, 0.3);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 21px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #FF6D1A;
+  transition: .4s;
+}
+
+.day-mode  .slider:before{
+  background-color: #fff;
+}
+
+.day-switch .slider {
+  background-color: #FF6D1A;
+  box-shadow: inset 2px 2px 4px 1px  rgb(0, 0, 0, 0.3);
+}
+
+.day-switch:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.slider:before {
+  transform: translateX(26px);
+}
+
+.day-switch  .slider:before {
+  transform: translateX(0);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+body.day-mode::before {
+  background-color: rgb(243,245,247);
+}
+
+body.day-mode {
+  color: #293241;
+}
+
+.day-mode .job-tile {
+  color: #293241;
+  background-color: rgb(255,255,255, 0.5);
+}
+
+.day-mode .job-tile:hover {
+  color: #fff;
+  background-color: #FF6D1A;
+}
+
+.day-mode header {
+  background-color:rgb(255, 255, 255,0.9);
+  box-shadow: 0 0 3px rgb(0,0,0,0.5);
+}
+
+.day-mode .search-container {
+  box-shadow: inset 2px 2px 4px 1px rgb(0, 0, 0, 0.2);
+  background-color: #FF6D1A;
+  border: 2px solid #ddd;
+}
+
+.day-mode .input-container i {
+  color: #fff;
+}
+
+.day-mode ::placeholder {
+  color: rgb(255,255,255,0.7);
 }
 
 @media screen and (max-width: 930px) {
