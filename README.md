@@ -6,6 +6,9 @@ https://ya-boris.github.io/homework/center-anything/
 Dark Cards
 https://ya-boris.github.io/homework/dark-cards/
 
+Responsive card hover effects
+https://ya-boris.github.io/homework/responsive-card/
+
 coffee-shop-landing-page
 https://ya-boris.github.io/homework/coffee-shop-landing-page/
 
