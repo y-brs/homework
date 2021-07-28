@@ -9,6 +9,9 @@ https://ya-boris.github.io/homework/dark-cards/
 Responsive card hover effects
 https://ya-boris.github.io/homework/responsive-card/
 
+Water Drops
+https://ya-boris.github.io/homework/water-drops/
+
 coffee-shop-landing-page
 https://ya-boris.github.io/homework/coffee-shop-landing-page/
 
