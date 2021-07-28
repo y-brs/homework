@@ -3,6 +3,9 @@
 Center Anything
 https://ya-boris.github.io/homework/center-anything/
 
+Dark Cards
+https://ya-boris.github.io/homework/dark-cards/
+
 coffee-shop-landing-page
 https://ya-boris.github.io/homework/coffee-shop-landing-page/
 
