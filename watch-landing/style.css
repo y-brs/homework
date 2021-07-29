@@ -86,6 +86,7 @@ header .logo {
 }
 
 .toggle {
+  cursor: pointer;
   position: relative;
   background-image: url("./images/menu.png");
   background-position: center;
