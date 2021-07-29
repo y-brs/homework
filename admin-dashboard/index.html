@@ -64,7 +64,7 @@
     </div>
     <div class="main">
       <div class="topbar">
-        <div class="toggle" onclick="toggleMenu()"></div>
+        <div class="toggle"></div>
         <div class="search">
           <label>
             <input type="text" placeholder="Search here">
@@ -342,15 +342,15 @@
   </div>
 
   <script>
-    function toggleMenu() {
-      const toggle = document.querySelector(".toggle");
-      const navigation = document.querySelector(".navigation");
-      const main = document.querySelector(".main");
+    const toggle = document.querySelector(".toggle"),
+          navigation = document.querySelector(".navigation"),
+          main = document.querySelector(".main");
 
+    toggle.addEventListener("click", function() {
       toggle.classList.toggle("active");
       navigation.classList.toggle("active");
       main.classList.toggle("active");
-    }
+    });
   </script>
 </body>
 </html>

@@ -1,5 +1,11 @@
 # Homework
 
+Starbucks Landing
+https://ya-boris.github.io/homework/starbucks-landing/
+
+Watch Landing
+https://ya-boris.github.io/homework/watch-landing/
+
 Personal Portfiolio
 https://ya-boris.github.io/homework/personal-portfiolio-v1/
 

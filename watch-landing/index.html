@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Landing</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="banner">
+    <header>
+      <a href="#" class="logo">Watch</a>
+      <div class="toggle"></div>
+    </header>
+    <div class="content">
+      <div class="content_box">
+        <h2>Future on your hand</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque vero cum dolores iste molestias? Ut, facilis dolor? Deserunt necessitatibus explicabo, et, rem distinctio sunt excepturi unde nostrum, eum ipsam cumque.</p>
+        <a href="#">Buy Now</a>
+      </div>
+      <div class="image_box">
+        <img src="./images/watch.png" alt="Watch">
+      </div>
+    </div>
+
+    <ul class="social">
+      <li>
+        <a href="#"><img src="./images/facebook.png" alt="facebook"></a>
+      </li>
+      <li>
+        <a href="#"><img src="./images/instagram.png" alt="facebook"></a>
+      </li>
+      <li>
+        <a href="#"><img src="./images/twitter.png" alt="facebook"></a>
+      </li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Store</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </section>
+
+  <script>
+    const toggle = document.querySelector(".toggle"),
+          banner = document.querySelector(".banner");
+
+    toggle.addEventListener("click", function() {
+      toggle.classList.toggle("active");
+      banner.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
