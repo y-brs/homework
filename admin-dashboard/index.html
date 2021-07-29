@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-apple" aria-hidden="true"></i></span>
+            <span class="title"><h2>Brand Name</h2></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+            <span class="title">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-users" aria-hidden="true"></i></span>
+            <span class="title">Customers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+            <span class="title">Message</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+            <span class="title">Help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+            <span class="title">Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+            <span class="title">Password</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+            <span class="title">Sign Out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="topbar">
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <div class="search">
+          <label>
+            <input type="text" placeholder="Search here">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </label>
+        </div>
+        <div class="user">
+          <img src="./images/profile.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="card_box">
+        <div class="card">
+          <div>
+            <div class="numbers">1,042</div>
+            <div class="card_name">Daily View</div>
+          </div>
+          <div class="icon_box">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="numbers">80</div>
+            <div class="card_name">Sales</div>
+          </div>
+          <div class="icon_box">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="numbers">208</div>
+            <div class="card_name">Comments</div>
+          </div>
+          <div class="icon_box">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="numbers">$6,042</div>
+            <div class="card_name">Earning</div>
+          </div>
+          <div class="icon_box">
+            <i class="fa fa-usd" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="recent_orders">
+          <div class="card_header">
+            <h2>Recent Orders</h2>
+            <a href="#" class="btn">View all</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Payments</td>
+                <td>Status</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delevered</span></td>
+              </tr>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Paid</td>
+                <td><span class="status return">Return</span></td>
+              </tr>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delevered</span></td>
+              </tr>
+              <tr>
+                <td>Tesla 3</td>
+                <td>$60000</td>
+                <td>Due</td>
+                <td><span class="status inprogress">In Progress</span></td>
+              </tr>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delevered</span></td>
+              </tr>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Due</td>
+                <td><span class="status pending">Pending</span></td>
+              </tr>
+              <tr>
+                <td>Speakers</td>
+                <td>$100</td>
+                <td>Paid</td>
+                <td><span class="status return">Return</span></td>
+              </tr>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delevered</span></td>
+              </tr>
+              <tr>
+                <td>Star Refrigirator</td>
+                <td>$1200</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delevered</span></td>
+              </tr>
+              <tr>
+                <td>Apple Watch 5</td>
+                <td>$300</td>
+                <td>Due</td>
+                <td><span class="status inprogress">In Progress</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="recent_customers">
+          <div class="card_header">
+            <h2>Recent Customers</h2>
+          </div>
+          <table>
+            <tbody>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="image_box">
+                    <img src="./images/profile1.jpg" alt="Profile pic">
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Boris<br >
+                    <span>Italy</span>
+                  </h4>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const toggle = document.querySelector(".toggle");
+      const navigation = document.querySelector(".navigation");
+      const main = document.querySelector(".main");
+
+      toggle.classList.toggle("active");
+      navigation.classList.toggle("active");
+      main.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>

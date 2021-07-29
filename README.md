@@ -3,6 +3,9 @@
 Personal Portfiolio
 https://ya-boris.github.io/homework/personal-portfiolio-v1/
 
+Admin Dashboard
+https://ya-boris.github.io/homework/admin-dashboard/
+
 Center Anything
 https://ya-boris.github.io/homework/center-anything/
 
