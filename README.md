@@ -1,5 +1,8 @@
 # Homework
 
+Popit
+https://ya-boris.github.io/homework/popit
+
 Analog Watch
 https://ya-boris.github.io/homework/analog-watch/
 
@@ -18,11 +21,15 @@ https://ya-boris.github.io/homework/watch-landing/
 Personal Portfiolio
 https://ya-boris.github.io/homework/personal-portfiolio-v1/
 
+Solar
+https://ya-boris.github.io/homework/solar
+
+Find-jobs
+https://ya-boris.github.io/homework/find-jobs/
+
 Admin Dashboard
 https://ya-boris.github.io/homework/admin-dashboard/
 
-Center Anything
-https://ya-boris.github.io/homework/center-anything/
 
 Dark Cards
 https://ya-boris.github.io/homework/dark-cards/
@@ -30,20 +37,14 @@ https://ya-boris.github.io/homework/dark-cards/
 Responsive card hover effects
 https://ya-boris.github.io/homework/responsive-card/
 
-Water Drops
-https://ya-boris.github.io/homework/water-drops/
-
-coffee-shop-landing-page
+Coffee-shop-landing-page
 https://ya-boris.github.io/homework/coffee-shop-landing-page/
 
-content-filter-css
+Content-filter-css
 https://ya-boris.github.io/homework/content-filter-css/
 
-eisenhower-matrix
+Eisenhower-matrix
 https://ya-boris.github.io/homework/eisenhower-matrix/
-
-find-jobs
-https://ya-boris.github.io/homework/find-jobs/
 
 keyboard-hero
 https://ya-boris.github.io/homework/keyboard-hero
@@ -63,41 +64,23 @@ https://ya-boris.github.io/homework/mini-game-aim
 online-zoo
 https://ya-boris.github.io/homework/online-zoo
 
-popit
-https://ya-boris.github.io/homework/popit
-
-portfolio
-https://ya-boris.github.io/homework/portfolio
-
-ppo-yandex
-https://ya-boris.github.io/homework/ppo-yandex
-
-quiz
+Quiz
 https://ya-boris.github.io/homework/quiz
 
-scandi
+Scandi
 https://ya-boris.github.io/homework/scandi
 
-simple-parallax
+Simple-parallax
 https://ya-boris.github.io/homework/simple-parallax
 
-slider-horizontal
+Slider-horizontal
 https://ya-boris.github.io/homework/slider-horizontal
 
-slider-vertical
+Slider-vertical
 https://ya-boris.github.io/homework/slider-vertical
 
-solar
-https://ya-boris.github.io/homework/solar
-
-spoiler-accordeon
+Spoiler-accordeon
 https://ya-boris.github.io/homework/spoiler-accordeon
-
-svg-animation
-https://ya-boris.github.io/homework/svg-animation
-
-test-page
-https://ya-boris.github.io/homework/test-page
 
 tic-tac-toe-game
 https://ya-boris.github.io/homework/tic-tac-toe-game

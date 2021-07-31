@@ -2,323 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pop it!</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preload" href="./popit.wav" as="audio">
 </head>
 <body>
-  <section class="main">
-    <div class="popit popit-large">
-      <div class="popit-inner">
-        <div class="pop-row orange">
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-        </div>
-      <div class="pop-row yellow">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row blue">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row green">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row red">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row violet">
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-        </div>
+  <div class="popit">
+    <div class="row orange">
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
     </div>
+
+    <div class="row yellow">
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
     </div>
-    <div class="popit popit-medium">
-      <div class="popit-inner">
-        <div class="pop-row orange">
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-        </div>
-      <div class="pop-row yellow">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row blue">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row green">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row red">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
+
+    <div class="row lightblue">
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
     </div>
+
+    <div class="row mint">
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
     </div>
-    <div class="popit popit-small">
-      <div class="popit-inner">
-        <div class="pop-row orange">
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-          <label class="pop-item">
-            <input type="checkbox">
-          </label>
-        </div>
-      <div class="pop-row yellow">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row blue">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row green">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
-      <div class="pop-row red">
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-        <label class="pop-item">
-          <input type="checkbox">
-        </label>
-      </div>
+
+    <div class="row blue">
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
     </div>
+
+    <div class="row purple">
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
+      <div class="ring"><button></button></div>
     </div>
-    <div class="buttons-container">
-      <div class="button-container">
-        <button class="reset-button" id="reset">Reset</button>
-      </div>
-      <div class="scores">
-        <span>Scores: </span><span id="score-value">0</span>
-      </div>
-    </div>
-  </section>
-  <script src="script.js"></script>
+  </div>
+
+  <script>
+    const btns = document.querySelectorAll('button');
+    const popFileURL = './popit.wav';
+    const audio = new Audio(popFileURL);
+
+    for (const btn of btns) {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+        audio.currentTime = 0;
+        audio.play();
+        navigator.vibrate(200)
+      });
+    }
+
+    //preload
+    audio.play();
+  </script>
 </body>
+</html>
