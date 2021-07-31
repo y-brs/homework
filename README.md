@@ -1,5 +1,8 @@
 # Homework
 
+Loruki
+https://ya-boris.github.io/homework/loruki
+
 Popit
 https://ya-boris.github.io/homework/popit
 
@@ -29,7 +32,6 @@ https://ya-boris.github.io/homework/find-jobs/
 
 Admin Dashboard
 https://ya-boris.github.io/homework/admin-dashboard/
-
 
 Dark Cards
 https://ya-boris.github.io/homework/dark-cards/
