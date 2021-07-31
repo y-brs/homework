@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0062be;
+  transition: 0.5s;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 80px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .text_box {
+  max-width: 600px;
+}
+
+.content .content_box h2 {
+  color: #fff;;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.content .content_box h2 span {
+  font-size: 2em;
+}
+
+.content .content_box p {
+  color: #fff;
+}
+
+.content .content_box a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #fff;
+  color: #111;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.content .image_box {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px;
+  margin-top: 50px;
+}
+
+.content .image_box img {
+  max-width: 240px;
+}
+
+.thumb {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumb li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.thumb li:hover {
+  transform: translateY(-15px);
+}
+
+.thumb li img {
+  max-width: 50px;
+}
+
+.social {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  display: inline-block;
+  margin: 5px 0;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+  }
+
+  header .logo {
+    max-width: 60px;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .toggle {
+    position: relative;
+    background-image: url("./images/menu.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 20;
+  }
+
+  .toggle.active {
+    position: fixed;
+    right: 20px;
+    background: url("./images/close.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    filter: invert(1);
+  }
+
+  header ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+
+  header ul.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  header ul li a {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #111;
+    font-weight: 400;
+    transition: 0.5s;
+  }
+
+  header ul li a:hover {
+    color: #e60c2c;
+  }
+
+  section {
+    padding: 20px 20px 120px;
+  }
+
+  .content {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .content .content_box h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+
+  .content .image_box {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .content .image_box img {
+    max-width: 150px;
+  }
+
+  .thumb li img {
+    max-width: 40px;
+  }
+
+  .social {
+    background: rgba(0,0,0,0.1);
+    right: 0;
+    width: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}
