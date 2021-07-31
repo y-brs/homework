@@ -1,5 +1,14 @@
 # Homework
 
+Analog Watch
+https://ya-boris.github.io/homework/analog-watch/
+
+Pepsi Landing
+https://ya-boris.github.io/homework/pepsi-landing/
+
+CocaCola Landing
+https://ya-boris.github.io/homework/cocacola-landing/
+
 Starbucks Landing
 https://ya-boris.github.io/homework/starbucks-landing/
 
