@@ -1,5 +1,8 @@
 # Homework
 
+Food Blog landing
+https://ya-boris.github.io/homework/foodblog-landing
+
 Loruki
 https://ya-boris.github.io/homework/loruki
 
