@@ -1,5 +1,11 @@
 # Homework
 
+Mansory layout
+https://ya-boris.github.io/homework/mansory-layout/
+
+Input and validation
+https://ya-boris.github.io/homework/form-validation/
+
 Animation
 https://ya-boris.github.io/homework/animation/
 
