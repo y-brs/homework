@@ -1,7 +1,10 @@
 # Homework
 
+404 Page
+https://ya-boris.github.io/homework/404-page/
+
 Food Blog landing
-https://ya-boris.github.io/homework/foodblog-landing
+https://ya-boris.github.io/homework/foodblog-landing/
 
 Loruki
 https://ya-boris.github.io/homework/loruki
