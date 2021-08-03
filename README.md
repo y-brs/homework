@@ -1,5 +1,8 @@
 # Homework
 
+Animation
+https://ya-boris.github.io/homework/animation/
+
 404 Page
 https://ya-boris.github.io/homework/404-page/
 
