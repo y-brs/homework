@@ -1,5 +1,8 @@
 # Homework
 
+Space Tourism
+https://ya-boris.github.io/homework/space-tourism/
+
 Music Player
 https://ya-boris.github.io/homework/music-player/
 
@@ -19,10 +22,10 @@ Food Blog landing
 https://ya-boris.github.io/homework/foodblog-landing/
 
 Loruki
-https://ya-boris.github.io/homework/loruki
+https://ya-boris.github.io/homework/loruki/
 
 Popit
-https://ya-boris.github.io/homework/popit
+https://ya-boris.github.io/homework/popit/
 
 Analog Watch
 https://ya-boris.github.io/homework/analog-watch/
@@ -64,46 +67,46 @@ Eisenhower-matrix
 https://ya-boris.github.io/homework/eisenhower-matrix/
 
 keyboard-hero
-https://ya-boris.github.io/homework/keyboard-hero
+https://ya-boris.github.io/homework/keyboard-hero/
 
 logi-test
-https://ya-boris.github.io/homework/logi-test
+https://ya-boris.github.io/homework/logi-test/
 
 mini-desk
-https://ya-boris.github.io/homework/mini-desk
+https://ya-boris.github.io/homework/mini-desk/
 
 mini-drag
-https://ya-boris.github.io/homework/mini-drag
+https://ya-boris.github.io/homework/mini-drag/
 
 mini-game-aim
-https://ya-boris.github.io/homework/mini-game-aim
+https://ya-boris.github.io/homework/mini-game-aim/
 
 online-zoo
-https://ya-boris.github.io/homework/online-zoo
+https://ya-boris.github.io/homework/online-zoo/
 
 Quiz
-https://ya-boris.github.io/homework/quiz
+https://ya-boris.github.io/homework/quiz/
 
 Scandi
-https://ya-boris.github.io/homework/scandi
+https://ya-boris.github.io/homework/scandi/
 
 Simple-parallax
-https://ya-boris.github.io/homework/simple-parallax
+https://ya-boris.github.io/homework/simple-parallax/
 
 Slider-horizontal
-https://ya-boris.github.io/homework/slider-horizontal
+https://ya-boris.github.io/homework/slider-horizontal/
 
 Slider-vertical
-https://ya-boris.github.io/homework/slider-vertical
+https://ya-boris.github.io/homework/slider-vertical/
 
 Spoiler-accordeon
-https://ya-boris.github.io/homework/spoiler-accordeon
+https://ya-boris.github.io/homework/spoiler-accordeon/
 
 tic-tac-toe-game
-https://ya-boris.github.io/homework/tic-tac-toe-game
+https://ya-boris.github.io/homework/tic-tac-toe-game/
 
 virtual-piano
-https://ya-boris.github.io/homework/virtual-piano
+https://ya-boris.github.io/homework/virtual-piano/
 
 wildlife
-https://ya-boris.github.io/homework/wildlife
+https://ya-boris.github.io/homework/wildlife/
