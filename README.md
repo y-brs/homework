@@ -1,5 +1,8 @@
 # Homework
 
+Melody
+https://ya-boris.github.io/homework/melody/
+
 Space Tourism
 https://ya-boris.github.io/homework/space-tourism/
 
