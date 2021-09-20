@@ -4,7 +4,8 @@ $(document).ready(function () {
       counterUp = $(".counter-up"),
       counterDown = $(".counter-down"),
       floorPath = $(".home-image path"),
-      modal = $(".modal");
+      modal = $(".modal"),
+      modalDialog = $(".modal-dialog");
 
   $(".flats path").on("mouseover", function() {
     currentFlat = $(this).attr("data-flat");
@@ -52,10 +53,12 @@ $(document).ready(function () {
   $(".modal-close-button").on("click", toggleModal);
   $(".modal-show").on("click", toggleModal);
   floorPath.on("click", toggleModal);
+  modal.on("click", toggleModal);
+  modalDialog.on("click", modalClick);
 
   $(document).keydown(function(e) {
     if (e.keyCode === 27 && modal.hasClass("modal-open")) {
-      toggleModal()
+      toggleModal();
     }
   });
 
@@ -67,8 +70,15 @@ $(document).ready(function () {
     $(`[data-floor=${usCurrentFloor}]`).toggleClass("current-floor");
   };
 
-  function toggleModal() {
+  function toggleModal(e) {
     modal.toggleClass("modal-open");
   };
+
+  function modalClick(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    return false;
+  }
 
 });
