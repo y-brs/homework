@@ -53,6 +53,12 @@ $(document).ready(function () {
   $(".modal-show").on("click", toggleModal);
   floorPath.on("click", toggleModal);
 
+  $(document).keydown(function(e) {
+    if (e.keyCode === 27 && modal.hasClass("modal-open")) {
+      toggleModal()
+    }
+  });
+
   function toggleFloor() {
     usCurrentFloor = currentFloor.toLocaleString("en-US", {minimumIntegerDigits: 2, useGrouping: false})
     counterNumber.text(usCurrentFloor);
