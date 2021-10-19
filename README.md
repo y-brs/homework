@@ -1,5 +1,8 @@
 # Homework
 
+Responsive Landing Page
+https://ya-boris.github.io/homework/responsive-landing/
+
 Melody
 https://ya-boris.github.io/homework/melody/
 
