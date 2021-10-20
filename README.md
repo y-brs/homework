@@ -1,16 +1,11 @@
 # Homework
 
-Responsive Landing Page
-https://ya-boris.github.io/homework/responsive-landing/
-
-Melody
-https://ya-boris.github.io/homework/melody/
-
-Space Tourism
-https://ya-boris.github.io/homework/space-tourism/
-
-Music Player
-https://ya-boris.github.io/homework/music-player/
+| Name 	| Link 	| Image 	|
+|:---:	|:---:	|:---:	|
+| Responsive Landing Page | https://ya-boris.github.io/homework/responsive-landing/ | ![1](https://user-images.githubusercontent.com/68222437/138159860-a0235e1e-68a9-42b8-8a6d-2854d3f12733.jpg) |
+| Melody | https://ya-boris.github.io/homework/melody/ |  |
+| Space Tourism | https://ya-boris.github.io/homework/space-tourism/ |  |
+| Music Player | https://ya-boris.github.io/homework/music-player/ |  |
 
 Mansory layout
 https://ya-boris.github.io/homework/mansory-layout/
