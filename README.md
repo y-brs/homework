@@ -2,6 +2,8 @@
 
 | Name 	| Link 	| Image 	|
 |:---:	|:---:	|:---:	|
+| Resonsive Landing Page — HTML & TailwindCSS & Javascript & GSAP | https://ya-boris.github.io/homework/responsive-landing-sony/ |  |
+responsive-landing-sony
 | Responsive Landing Page | https://ya-boris.github.io/homework/responsive-landing/ | ![1](https://user-images.githubusercontent.com/68222437/138159860-a0235e1e-68a9-42b8-8a6d-2854d3f12733.jpg) |
 | Melody | https://ya-boris.github.io/homework/melody/ |  |
 | Space Tourism | https://ya-boris.github.io/homework/space-tourism/ |  |
@@ -66,9 +68,6 @@ https://ya-boris.github.io/homework/content-filter-css/
 
 Eisenhower-matrix
 https://ya-boris.github.io/homework/eisenhower-matrix/
-
-keyboard-hero
-https://ya-boris.github.io/homework/keyboard-hero/
 
 logi-test
 https://ya-boris.github.io/homework/logi-test/

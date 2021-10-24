@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Inter&family=Oswald:wght@700&display=swap');
+
+/* ==== Root  ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-family: 'Aleo', sans-serif;
+}
+
+.img_ {
+  width: 899px;
+}
+
+/* ====  TEXT STROKE  ===== */
+@supports (-webkit-text-stroke: 1.2px rgb(39,39,39)) {
+  h4 {
+    -webkit-text-stroke: 1.2px rgb(46, 46, 46);
+    -webkit-text-fill-color:white;
+    font-family: 'Lato',sans-serif;
+  }
+}
+
+/* ==== Scrollbar  ===== */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ==== Media Query  ===== */
+@media screen and (max-width:991px) {
+  .img_ {
+    width: 100%;
+  }
+}
