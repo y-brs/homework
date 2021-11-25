@@ -1,0 +1,74 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.container {
+  width: 280px;
+  margin: auto;
+}
+
+.form-container {
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+}
+
+.input {
+  width: 215px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  color: #333;
+}
+
+.clear-results {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  background-color: #bbb;
+  color: #333;
+}
+
+.clear-results:hover {
+  background-color: #ccc;
+}
+
+.results-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result-item {
+  padding: 10px;
+  background-color:wheat;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+}

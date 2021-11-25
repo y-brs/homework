@@ -2,7 +2,7 @@
 
 | Name 	| Link 	| Image 	|
 |:---:	|:---:	|:---:	|
-| Resonsive Landing Page — HTML & TailwindCSS & Javascript & GSAP | https://ya-boris.github.io/homework/landing-sony/ | ![112961595-2399bd80-9163-11eb-9cf9-8a5dc4dd02d0](https://user-images.githubusercontent.com/68222437/138613141-b14128f3-50c3-4e7c-9193-760d53179f55.png) |
+| Responsive Landing Page — HTML & TailwindCSS & Javascript & GSAP | https://ya-boris.github.io/homework/landing-sony/ | ![112961595-2399bd80-9163-11eb-9cf9-8a5dc4dd02d0](https://user-images.githubusercontent.com/68222437/138613141-b14128f3-50c3-4e7c-9193-760d53179f55.png) |
 | Responsive Landing Page | https://ya-boris.github.io/homework/landing-devkit/ | ![1](https://user-images.githubusercontent.com/68222437/138159860-a0235e1e-68a9-42b8-8a6d-2854d3f12733.jpg) |
 | GK Melody | https://ya-boris.github.io/homework/melody/ | ![2](https://user-images.githubusercontent.com/68222437/138613362-372c2591-60c9-4ed4-bbb4-b101647fc200.jpg) |
 | Space Tourism | https://ya-boris.github.io/homework/space-tourism/ | ![3](https://user-images.githubusercontent.com/68222437/138613402-ac6815d5-7d8e-41cd-b443-b9463fcb2d65.jpg) |
@@ -11,6 +11,7 @@
 | Food Blog landing | https://ya-boris.github.io/homework/landing-foodblog/ |  |
 | Solar | https://ya-boris.github.io/homework/solar |  |
 | 404 Page | https://ya-boris.github.io/homework/404-page/ |  |
+| Dino game | https://ya-boris.github.io/homework/dino-game/ |  |
 
 Mansory layout
 https://ya-boris.github.io/homework/mansory-layout/
@@ -62,6 +63,9 @@ https://ya-boris.github.io/homework/eisenhower-matrix/
 
 logi-test
 https://ya-boris.github.io/homework/logi-test/
+
+Search bar
+https://ya-boris.github.io/homework/search-bar/
 
 mini-desk
 https://ya-boris.github.io/homework/mini-desk/
